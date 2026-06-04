@@ -25,11 +25,11 @@ function App() {
     name: '', description: '', price: '', stock: '', image_url: '', category_id: ''
   });
 
- // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchProducts();
     fetchCategories();
     if (token) fetchCart();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
 
   async function fetchProducts(s = search, catId = selectedCategory) {
