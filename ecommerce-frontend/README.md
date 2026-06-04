@@ -41,7 +41,9 @@ cd ShopHub
 docker compose up -d
 ```
 
-API documentation available at http://localhost:8000/docs
+## Live Demo
+- Frontend: https://shop-f5e4pq62g-alishguluzades-projects.vercel.app/
+- API Docs: https://shophub-c29t.onrender.com/docs
 
 ## Author
 
