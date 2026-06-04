@@ -8,7 +8,7 @@ SECRET_KEY = "19921999"
 ALGORITHM = "HS256"
 TOKEN_MUDDET = 30
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto", bcrypt__rounds=12)
 security = HTTPBearer()
 
 def shifre_hashle(shifre: str):

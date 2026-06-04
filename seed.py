@@ -1,6 +1,6 @@
 import requests
 
-BASE = "http://localhost:8000"
+BASE = "https://shophub-c29t.onrender.com"
 
 # Login
 res = requests.post(f"{BASE}/login", json={"email": "nicat@mail.com", "password": "1234"})
