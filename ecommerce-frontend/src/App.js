@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API = 'http://localhost:8000';
+const API = 'https://shophub-c29t.onrender.com';
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token'));
